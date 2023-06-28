@@ -6,4 +6,5 @@
     </style>
 
     <style name="Theme.WarehouseManagement" parent="Base.Theme.WarehouseManagement" />
+
 </resources>
