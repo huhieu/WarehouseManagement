@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WarehouseManagement</string>
+    <string name="title_add_hang">Thêm hãng</string>
+    <string name="seach">Tìm kiếm</string>
+
+    <string-array name="filter">
+        <item>Mặc định</item>
+        <item>A-Z theo Tên</item>
+        <item>A-Z theo Mã</item>
+    </string-array>
+</resources>
