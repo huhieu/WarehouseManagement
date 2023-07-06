@@ -2,6 +2,11 @@
     <string name="app_name">WarehouseManagement</string>
     <string name="title_add_hang">Thêm hãng</string>
     <string name="seach">Tìm kiếm</string>
+    <string name="ma_hang">Mã hãng</string>
+    <string name="name_hang">Tên hãng</string>
+    <string name="name_hang_show">Tên hãng:</string>
+    <string name="chup_anh">Chụp ảnh</string>
+    <string name="chon_file">Tải ảnh lên</string>
 
     <string-array name="filter">
         <item>Mặc định</item>
