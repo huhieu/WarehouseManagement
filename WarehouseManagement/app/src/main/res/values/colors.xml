@@ -3,4 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="bg_seach">#F2F2F2</color>
+    <color name="selected">#801E90FF</color>
+    <color name="bg_btn_rspass">#019AE8</color>
+
 </resources>
