@@ -6,6 +6,16 @@
     </style>
 
     <style name="Theme.WarehouseManagement" parent="Base.Theme.WarehouseManagement" />
+
+    <style name="Theme.WarehouseManagement.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Warehousemanagement.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Warehousemanagement.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    
     <style name="custom_TV">
         <item name="android:gravity">center_vertical</item>
         <item name="android:textColor">@color/black</item>
