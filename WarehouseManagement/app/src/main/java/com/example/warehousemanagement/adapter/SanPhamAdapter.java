@@ -14,16 +14,17 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.amulyakhare.textdrawable.TextDrawable;
-import com.example.myapplication.R;
-import com.example.myapplication.dao.DaoHang;
-import com.example.myapplication.dao.DaoThuocTinhSanPham;
-import com.example.myapplication.model.Hang;
-import com.example.myapplication.model.ThuocTinhSanPham;
-import com.example.myapplication.utilities.ItemSanPhamClick;
-import com.example.projectcuoikiandroi.model.SanPham;
+import com.example.warehousemanagement.R;
+import com.example.warehousemanagement.dao.DaoHang;
+import com.example.warehousemanagement.dao.DaoThuocTinhSanPham;
+import com.example.warehousemanagement.model.Hang;
+import com.example.warehousemanagement.model.ThuocTinhSanPham;
+import com.example.warehousemanagement.utilities.ItemSanPhamClick;
+import com.example.warehousemanagement.model.SanPham;
 import com.example.warehousemanagement.dao.DaoHang;
 import com.example.warehousemanagement.dao.DaoThuocTinhSanPham;
 import com.example.warehousemanagement.model.SanPham;
+import com.example.warehousemanagement.utilities.ItemSanPhamClick;
 
 import org.jetbrains.annotations.NotNull;
 
