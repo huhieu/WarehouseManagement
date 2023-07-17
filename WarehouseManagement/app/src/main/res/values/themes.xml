@@ -12,9 +12,16 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="Theme.WarehouseManagement.SplashScreen" parent="Theme.WarehouseManagement.NoActionBar">
+        <item name="android:windowSplashScreenBackground">@color/bg_sc_start</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/logo</item>
+    </style>
+
     <style name="Theme.Warehousemanagement.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Warehousemanagement.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
     
     <style name="custom_TV">
         <item name="android:gravity">center_vertical</item>
