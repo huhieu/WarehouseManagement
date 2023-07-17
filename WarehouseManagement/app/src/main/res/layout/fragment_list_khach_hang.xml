@@ -9,7 +9,7 @@
         android:id="@+id/tlbKhachHang"
         android:layout_width="0dp"
         android:layout_height="@dimen/item_height"
-        android:background="@color/bg_seach"
+        android:background="@color/bg_search"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
