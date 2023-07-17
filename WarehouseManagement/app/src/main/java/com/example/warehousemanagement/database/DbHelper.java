@@ -11,6 +11,7 @@ public class DbHelper extends SQLiteOpenHelper {
     public DbHelper(Context context) {
         super(context, DB_NAME, null, VER_SION);
     }
+
     @Override
     public void onCreate(SQLiteDatabase db) {
         //Tạo bảng Nhân Viên
