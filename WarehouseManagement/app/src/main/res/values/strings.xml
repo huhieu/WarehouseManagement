@@ -8,6 +8,12 @@
     <string name="chup_anh">Chụp ảnh</string>
     <string name="chon_file">Tải ảnh lên</string>
     <string name="edit">Sửa</string>
+    <string name="khachhang_title">Mã Khách Hàng</string>
+    <string name="tile_HotenKH">Họ Tên</string>
+    <string name="tile_sdtKH">Số điện thoại</string>
+    <string name="tile_diachiKH">Địa chỉ</string>
+    <string name="tile_edit_kH">Khách Hàng </string>
+    <string name="loc">Lọc</string>
 
     <string-array name="filter">
         <item>Mặc định</item>
