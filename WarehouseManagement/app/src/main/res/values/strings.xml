@@ -60,18 +60,6 @@
     <string name="sp_tinhtrang">Tình trạng sản phẩm</string>
     <string name="chuaLK">Chưa lưu kho</string>
     <string name="daLK">Đã lưu kho</string>
-<!--tai khoan-->
-    <string name="user_tk">Tài khoản</string>
-    <string name="dia_chi">Điạ chỉ</string>
-    <string name="date_year">Năm sinh</string>
-    <string name="pass_defaut">Mật khẩu mặc định là: 123456</string>
-    <string name="name">Họ tên</string>
-    <string name="phone">Điện thoại</string>
-    <string name="nv_id">Mã nhân viên</string>
-    <string name="pass_forget">Quên mật khẩu</string>
-    <string name="reset_pass">Đặt lại mật khẩu mặc định cho tài khoản</string>
-
-    <!--tai khoan-->
 
     <string-array name="filter">
         <item>Mặc định</item>
