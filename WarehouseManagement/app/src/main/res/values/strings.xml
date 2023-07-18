@@ -66,4 +66,10 @@
         <item>A-Z theo Tên</item>
         <item>A-Z theo Mã</item>
     </string-array>
+    <string-array name="filterNV">
+        <item>Mặc định</item>
+        <item>A-Z theo Tên</item>
+        <item>A-Z theo Mã</item>
+        <item>A-Z theo TK</item>
+    </string-array>
 </resources>
