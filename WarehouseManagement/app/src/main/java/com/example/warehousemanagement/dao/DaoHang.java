@@ -12,7 +12,7 @@ import com.example.warehousemanagement.model.Hang;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DaoHang {
+public class    DaoHang {
     SQLiteDatabase database;
     DbHelper dbHelper;
 
