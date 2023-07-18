@@ -20,6 +20,19 @@
     <string name="reset_pass">Đặt lại mật khẩu mặc định cho tài khoản</string>
 
     <!--tai khoan-->
+    <string name="khachhang_title">Mã Khách Hàng</string>
+    <string name="tile_HotenKH">Họ Tên</string>
+    <string name="tile_sdtKH">Số điện thoại</string>
+    <string name="tile_diachiKH">Địa chỉ</string>
+    <string name="tile_edit_kH">Khách Hàng </string>
+    <string name="loc">Lọc</string>
+    <string name="app_title">Warehouse Manager</string>
+    <string name="app_title_sub">Quản lý kho</string>
+    <string name="user">Tên đăng nhập</string>
+    <string name="pass">Mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="remember">Lưu tài khoản</string>
+    <string name="cancel">Hủy</string>
 
     <string-array name="filter">
         <item>Mặc định</item>

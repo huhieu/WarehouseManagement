@@ -20,7 +20,7 @@
             android:layout_height="@dimen/item_height"
             android:layout_gravity="center"
             android:layout_marginLeft="@dimen/margin"
-            android:backgroundTint="@color/bg_seach"
+            android:backgroundTint="@color/bg_search"
             app:cardCornerRadius="@dimen/ly_height">
 
             <ImageView
@@ -55,7 +55,7 @@
             android:layout_height="@dimen/item_height"
             android:layout_gravity="center"
             android:layout_marginLeft="@dimen/margin"
-            android:backgroundTint="@color/bg_seach"
+            android:backgroundTint="@color/bg_search"
             app:cardCornerRadius="@dimen/ly_height">
 
             <ImageView

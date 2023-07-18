@@ -5,7 +5,7 @@
     android:id="@+id/fragmentChiTietHang"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_seach"
+    android:background="@color/bg_search"
     tools:context=".ui.Hang.ChiTietHangFragment">
 
     <ImageView

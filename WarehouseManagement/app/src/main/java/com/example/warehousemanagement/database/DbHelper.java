@@ -5,7 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 public class DbHelper extends SQLiteOpenHelper {
-    public static final String DB_NAME = "MobileManager";
+    public static final String DB_NAME = "WarehouseManagement";
     public static final int VER_SION = 1;
 
     public DbHelper(Context context) {
@@ -14,7 +14,6 @@ public class DbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        //Tạo bảng Nhân Viên
         String createTableNhanVien = "CREATE TABLE NhanVien(" +
                 "maNV TEXT NOT NULL UNIQUE PRIMARY KEY," +
                 "hoTen TEXT NOT NULL," +
@@ -25,20 +24,17 @@ public class DbHelper extends SQLiteOpenHelper {
                 "matKhau TEXT NOT NULL," +
                 "hinhAnh BLOB)";
         db.execSQL(createTableNhanVien);
-        //Tạo bảng Khách hàng
         String createTableKhachHang = "CREATE TABLE KhachHang(" +
                 "maKH TEXT NOT NULL UNIQUE PRIMARY KEY," +
                 "hoTen TEXT NOT NULL ," +
                 "dienThoai TEXT NOT NULL," +
                 "diaChi TEXT NOT NULL)";
         db.execSQL(createTableKhachHang);
-        //Tạo bảng Hãng
         String createTableHang = "CREATE TABLE Hang(" +
                 "maHang TEXT NOT NULL UNIQUE PRIMARY KEY," +
                 "tenHang TEXT NOT NULL," +
                 "hinhAnh BLOB)";
         db.execSQL(createTableHang);
-        //Tạo bảng Sản Phẩm
         String createTableSanPham = "CREATE TABLE SanPham(" +
                 "maSP TEXT NOT NULL UNIQUE PRIMARY KEY," +
                 "maHang TEXT NOT NULL REFERENCES Hang(maHang)ON DELETE CASCADE ON UPDATE CASCADE," +
@@ -50,7 +46,6 @@ public class DbHelper extends SQLiteOpenHelper {
                 "trangThai INTERGER NOT NULL," +
                 "moTa TEXT)";
         db.execSQL(createTableSanPham);
-        // Tạo bảng thuộc tính SP
         String createTableThuocTinhSanPham = "CREATE TABLE ThuocTinhSanPham(" +
                 "maTT INTEGER PRIMARY KEY AUTOINCREMENT," +
                 "maSP TEXT NOT NULL REFERENCES SanPham(maSP) ON DELETE CASCADE ON UPDATE CASCADE," +
@@ -63,7 +58,6 @@ public class DbHelper extends SQLiteOpenHelper {
                 "congSac TEXT," +
                 "loaiPhuKien TEXT)";
         db.execSQL(createTableThuocTinhSanPham);
-        //Tạo bảng hóa đơn
         String createTableHoaDon = "CREATE TABLE HoaDon(" +
                 "maHD TEXT NOT NULL UNIQUE PRIMARY KEY," +
                 "maNV TEXT NOT NULL REFERENCES NhanVien(maNV) ON DELETE CASCADE ON UPDATE CASCADE," +
@@ -72,7 +66,6 @@ public class DbHelper extends SQLiteOpenHelper {
                 "trangThai INTEGER NOT NULL," +
                 "ngay TEXT NOT NULL)";
         db.execSQL(createTableHoaDon);
-        //Tạo bảng Chi tiết HĐ
         String createTableChiTietHoaDon = "CREATE TABLE ChiTietHoaDon(" +
                 "maCTHD INTEGER PRIMARY KEY AUTOINCREMENT," +
                 "maHD NOT NULL REFERENCES HoaDon(maHD) ON DELETE CASCADE ON UPDATE CASCADE," +
@@ -86,7 +79,6 @@ public class DbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int old, int newVS) {
-        // Xóa bảng khi update VERSION
 
         String dropTableNhanVien = "DROP TABLE IF EXISTS NhanVien";
         db.execSQL(dropTableNhanVien);
