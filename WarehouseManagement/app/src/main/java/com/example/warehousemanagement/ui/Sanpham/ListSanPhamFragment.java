@@ -39,7 +39,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class ListSanPhamFragment extends Fragment {
+public class    ListSanPhamFragment extends Fragment {
     private NavController navController;
     private AppCompatActivity appCompatActivity;
     private Drawable drawable;
