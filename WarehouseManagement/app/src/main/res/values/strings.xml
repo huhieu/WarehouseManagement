@@ -21,6 +21,33 @@
     <string name="login">Đăng nhập</string>
     <string name="remember">Lưu tài khoản</string>
     <string name="cancel">Hủy</string>
+    <string name="hang">Hãng</string>
+    <string name="status">Trạng thái</string>
+    <string name="status_s">Trạng thái:</string>
+    <string name="sp_money">Giá tiền</string>
+    <string name="sp_moneys">Giá tiền:</string>
+    <string name="exit">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="done_class">Chọn hãng</string>
+    <string name="sp_name">Tên sản phẩm</string>
+    <string name="sp_id">Mã sản phẩm</string>
+    <string name="sp_class">Loại sản phẩm</string>
+    <string name="sp_phone">Gia dụng</string>
+    <string name="sp_phukien">Linh kiện </string>
+    <string name="sp_status">Tình trạng</string>
+    <string name="sp_bonho">Bảo hành</string>
+    <string name="sp_ram">Trọng lượng</string>
+    <string name="sp_deital">Chi tiết sản phẩm</string>
+    <string name="sp_chip">Xuất xứ</string>
+    <string name="sp_os">Nhập khẩu</string>
+    <string name="sp_display">Kích thước</string>
+    <string name="sp_battery">Công xuất</string>
+    <string name="sp_type">Nguồn điện</string>
+    <string name="sp_loaiPK">Loại hàng</string>
+    <string name="sp_note">Mô tả</string>
+    <string name="sp_tinhtrang">Tình trạng sản phẩm</string>
+    <string name="chuaLK">Chưa lưu kho</string>
+    <string name="daLK">Đã lưu kho</string>
 
     <string-array name="filter">
         <item>Mặc định</item>
