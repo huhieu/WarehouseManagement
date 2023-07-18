@@ -94,7 +94,35 @@ public class    ListSanPhamFragment extends Fragment {
             }
         });
     }
-   
+    private void seachToolBar() {
+
+        MenuItem menu = binding.tlbSP.getMenu().findItem(R.id.menu_extra_seach);
+        searchView = (SearchView) menu.getActionView();
+        searchView.setQueryHint("Tên sản phẩm, Mã sản phẩm ...");
+        searchView.setMaxWidth(Integer.MAX_VALUE);
+
+        EditText edSeach = (EditText) searchView.findViewById(androidx.appcompat.R.id.search_src_text);
+        edSeach.setTextColor(Color.BLACK);
+        edSeach.setHintTextColor(Color.LTGRAY);
+
+        ImageView iconSeach = (ImageView) searchView.findViewById(androidx.appcompat.R.id.search_button);
+        ImageView iconClose = (ImageView) searchView.findViewById(androidx.appcompat.R.id.search_close_btn);
+        iconSeach.setColorFilter(Color.BLACK);
+        iconClose.setColorFilter(Color.BLACK);
+
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                filter(newText);
+                return true;
+            }
+        });
+    }
 
     private void spinnerFilter() {
         ArrayAdapter<CharSequence> spAdapter = ArrayAdapter.createFromResource(appCompatActivity, R.array.filter, R.layout.custom_item_sp);
