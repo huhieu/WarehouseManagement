@@ -9,4 +9,8 @@
     <color name="btn_bg_end">#78ffd6</color>
     <color name="btn_cancel_start">#F2994A</color>
     <color name="btn_cancel_end">#F2C94C</color>
+    <color name="green">#00FF00</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FFC125</color>
+    <color name="gray">#C0C0C0</color>
 </resources>
