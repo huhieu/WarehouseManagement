@@ -14,7 +14,6 @@ public class DbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-
         String createTableNhanVien = "CREATE TABLE NhanVien(" +
                 "maNV TEXT NOT NULL UNIQUE PRIMARY KEY," +
                 "hoTen TEXT NOT NULL," +
@@ -25,20 +24,17 @@ public class DbHelper extends SQLiteOpenHelper {
                 "matKhau TEXT NOT NULL," +
                 "hinhAnh BLOB)";
         db.execSQL(createTableNhanVien);
-
         String createTableKhachHang = "CREATE TABLE KhachHang(" +
                 "maKH TEXT NOT NULL UNIQUE PRIMARY KEY," +
                 "hoTen TEXT NOT NULL ," +
                 "dienThoai TEXT NOT NULL," +
                 "diaChi TEXT NOT NULL)";
         db.execSQL(createTableKhachHang);
-
         String createTableHang = "CREATE TABLE Hang(" +
                 "maHang TEXT NOT NULL UNIQUE PRIMARY KEY," +
                 "tenHang TEXT NOT NULL," +
                 "hinhAnh BLOB)";
         db.execSQL(createTableHang);
-
         String createTableSanPham = "CREATE TABLE SanPham(" +
                 "maSP TEXT NOT NULL UNIQUE PRIMARY KEY," +
                 "maHang TEXT NOT NULL REFERENCES Hang(maHang)ON DELETE CASCADE ON UPDATE CASCADE," +
@@ -50,7 +46,6 @@ public class DbHelper extends SQLiteOpenHelper {
                 "trangThai INTERGER NOT NULL," +
                 "moTa TEXT)";
         db.execSQL(createTableSanPham);
-
         String createTableThuocTinhSanPham = "CREATE TABLE ThuocTinhSanPham(" +
                 "maTT INTEGER PRIMARY KEY AUTOINCREMENT," +
                 "maSP TEXT NOT NULL REFERENCES SanPham(maSP) ON DELETE CASCADE ON UPDATE CASCADE," +
@@ -63,7 +58,6 @@ public class DbHelper extends SQLiteOpenHelper {
                 "congSac TEXT," +
                 "loaiPhuKien TEXT)";
         db.execSQL(createTableThuocTinhSanPham);
-
         String createTableHoaDon = "CREATE TABLE HoaDon(" +
                 "maHD TEXT NOT NULL UNIQUE PRIMARY KEY," +
                 "maNV TEXT NOT NULL REFERENCES NhanVien(maNV) ON DELETE CASCADE ON UPDATE CASCADE," +
@@ -72,7 +66,6 @@ public class DbHelper extends SQLiteOpenHelper {
                 "trangThai INTEGER NOT NULL," +
                 "ngay TEXT NOT NULL)";
         db.execSQL(createTableHoaDon);
-
         String createTableChiTietHoaDon = "CREATE TABLE ChiTietHoaDon(" +
                 "maCTHD INTEGER PRIMARY KEY AUTOINCREMENT," +
                 "maHD NOT NULL REFERENCES HoaDon(maHD) ON DELETE CASCADE ON UPDATE CASCADE," +
