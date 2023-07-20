@@ -1,10 +1,8 @@
 package com.example.warehousemanagement.ui.TaiKhoan;
 
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -148,8 +146,6 @@ public class ListTaiKhoanFragment extends Fragment {
         adapter.setImgCallClick(new ItemNhanVienClick() {
             @Override
             public void OnItemClick(NhanVien nhanVien) {
-                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + nhanVien.getDienThoai()));
-                startActivity(intent);
             }
         });
         adapter.setImgDelClick(new ItemNhanVienClick() {
