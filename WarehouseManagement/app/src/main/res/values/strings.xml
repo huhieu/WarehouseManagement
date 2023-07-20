@@ -75,6 +75,9 @@
     <string name="done">Chọn</string>
     <string name="tog_quan">Tổng quan</string>
     <string name="menu_home">Trang chủ</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
 
     <string-array name="filter">
         <item>Mặc định</item>

@@ -79,10 +79,10 @@ public class LoginActivity extends AppCompatActivity {
                 editor.putString("PASS", pass);
                 editor.putBoolean("REMEMBER", checkBoxRemember.isChecked());
                 editor.commit();
-                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 Bundle bundle = new Bundle();
-                bundle.putString("USER", user);
-                bundle.putString("PASS", pass);
+                bundle.putString("user", user);
+                bundle.putString("pass", pass);
                 intent.putExtras(bundle);
                 startActivity(intent);
             } else {
