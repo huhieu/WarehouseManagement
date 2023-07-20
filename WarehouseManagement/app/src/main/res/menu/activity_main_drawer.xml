@@ -42,10 +42,6 @@
                     android:id="@+id/nav_doanhThu"
                     android:icon="@drawable/ic_money"
                     android:title="@string/doanh_thu" />
-                <item
-                    android:id="@+id/nav_topSanPham"
-                    android:icon="@drawable/ic_top"
-                    android:title="@string/menu_top" />
             </group>
         </menu>
     </item>
