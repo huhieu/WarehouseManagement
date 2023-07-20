@@ -96,6 +96,7 @@
     <string name="date_note">Ngày tạo</string>
     <string name="nv_note">Người tạo</string>
     <string name="hd_deital">Chi tiết hóa đơn</string>
+    <string name="nhan_vien">Nhân viên</string>
 
     <string-array name="filter">
         <item>Mặc định</item>
