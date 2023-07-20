@@ -80,6 +80,23 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
 
+    <string name="hd_id">Mã hóa đơn</string>
+    <string name="date">Ngày</string>
+    <string name="proted">Bảo hành</string>
+    <string name="proted_no">Không bảo hành</string>
+    <string name="proted_tittle">6 tháng</string>
+    <string name="proted_big">12 tháng</string>
+    <string name="don_gia">Đơn giá</string>
+    <string name="money">Thành tiền</string>
+    <string name="sale">Khuyến mãi</string>
+    <string name="soluong">Số lượng</string>
+    <string name="sale_show">Khuyến mãi:</string>
+    <string name="hd_title">Hóa đơn</string>
+    <string name="nv_ban">Nhân viên bán</string>
+    <string name="date_note">Ngày tạo</string>
+    <string name="nv_note">Người tạo</string>
+    <string name="hd_deital">Chi tiết hóa đơn</string>
+
     <string-array name="filter">
         <item>Mặc định</item>
         <item>A-Z theo Tên</item>
@@ -96,5 +113,20 @@
         <item>Hôm nay</item>
         <item>7 ngày</item>
         <item>30 ngày</item>
+    </string-array>
+    <string-array name="tinhTrang">
+        <item>Đang xử lý</item>
+        <item>Đã được xử lý</item>
+        <item>Vận chuyển</item>
+        <item>Hoàn thành</item>
+    </string-array>
+    <string-array name="khuyenMai">
+        <item>Không khuyến mãi</item>
+        <item>5%</item>
+        <item>10%</item>
+        <item>15%</item>
+        <item>20%</item>
+        <item>25%</item>
+        <item>30%</item>
     </string-array>
 </resources>
