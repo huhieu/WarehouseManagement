@@ -97,6 +97,10 @@
     <string name="nv_note">Người tạo</string>
     <string name="hd_deital">Chi tiết hóa đơn</string>
     <string name="nhan_vien">Nhân viên</string>
+    <string name="phan_loai">Phân loại</string>
+    <string name="xuat">Tổng tiền xuất hàng</string>
+    <string name="xem">Xem</string>
+    <string name="nhap">Tổng tiền nhập hàng</string>
 
     <string-array name="filter">
         <item>Mặc định</item>
