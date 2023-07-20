@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/nav_listSP"
-        android:name="com.example.myapplication.ui.SanPham.ListSanPhamFragment"
+        android:name="com.example.warehousemanagement.ui.Sanpham.ListSanPhamFragment"
         android:label="fragment_list_san_pham"
         tools:layout="@layout/fragment_list_san_pham" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_addSP"
-        android:name="com.example.myapplication.ui.SanPham.AddSanPhamFragment"
+        android:name="com.example.warehousemanagement.ui.Sanpham.AddSanPhamFragment"
         android:label="fragment_add_san_pham"
         tools:layout="@layout/fragment_add_san_pham" >
         <action
@@ -29,7 +29,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_editSP"
-        android:name="com.example.myapplication.ui.SanPham.EditSanPhamFragment"
+        android:name="com.example.warehousemanagement.ui.Sanpham.EditSanPhamFragment"
         android:label="fragment_edit_san_pham"
         tools:layout="@layout/fragment_edit_san_pham" >
         <action
@@ -43,7 +43,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_chitetSP"
-        android:name="com.example.myapplication.ui.SanPham.ChiTietSanPhamFragment"
+        android:name="com.example.warehousemanagement.ui.Sanpham.ChiTietSanPhamFragment"
         android:label="fragment_chi_tiet_san_pham"
         tools:layout="@layout/fragment_chi_tiet_san_pham" >
         <action
