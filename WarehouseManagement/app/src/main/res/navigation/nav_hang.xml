@@ -6,7 +6,7 @@
     app:startDestination="@id/nav_listHang">
     <fragment
         android:id="@+id/nav_listHang"
-        android:name="com.example.App_quanlykho.ui.Hang.ListHangFragment"
+        android:name="com.example.warehousemanagement.ui.Hang.ListHangFragment"
         android:label="fragment_list_hang"
         tools:layout="@layout/fragment_list_hang" >
         <action
@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_addHang"
-        android:name="com.example.App_quanlykho.ui.Hang.AddHangFragment"
+        android:name="com.example.warehousemanagement.ui.Hang.AddHangFragment"
         android:label="fragment_add_hang"
         tools:layout="@layout/fragment_add_hang" >
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_chiTietHang"
-        android:name="com.example.App_quanlykho.ui.Hang.ChiTietHangFragment"
+        android:name="com.example.warehousemanagement.ui.Hang.ChiTietHangFragment"
         android:label="fragment_chi_tiet_hang"
         tools:layout="@layout/fragment_chi_tiet_hang" >
         <action
@@ -41,7 +41,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_editHang"
-        android:name="com.example.App_quanlykho.ui.Hang.EditHangFragment"
+        android:name="com.example.warehousemanagement.ui.Hang.EditHangFragment"
         android:label="fragment_edit_hang"
         tools:layout="@layout/fragment_edit_hang" >
         <action
