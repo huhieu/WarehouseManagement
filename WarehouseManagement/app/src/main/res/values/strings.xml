@@ -61,6 +61,24 @@
     <string name="chuaLK">Chưa lưu kho</string>
     <string name="daLK">Đã lưu kho</string>
 
+    <string name="action_settings">Settings</string>
+    <string name="home">Trang chủ</string>
+    <string name="menu_hd_xuat">Nhập hàng hóa</string>
+    <string name="menu_hd_nhap">Bán hàng</string>
+    <string name="san_pham">Sản phẩm</string>
+    <string name="doanh_thu">Doanh thu</string>
+    <string name="khach_hang">Khách hàng</string>
+    <string name="menu_top">Top 10 sản phẩm bán chạy</string>
+    <string name="menu_acc">Quản lý Tài khoản</string>
+    <string name="menu_about_acc">Thông tin tài khoản</string>
+    <string name="menu_logout">Đăng xuất</string>
+    <string name="done">Chọn</string>
+    <string name="tog_quan">Tổng quan</string>
+    <string name="menu_home">Trang chủ</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
     <string-array name="filter">
         <item>Mặc định</item>
         <item>A-Z theo Tên</item>

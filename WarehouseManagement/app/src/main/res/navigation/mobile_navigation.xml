@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+    <fragment
+        android:id="@+id/nav_sanPham"
+        android:name="com.example.warehousemanagement.ui.Sanpham.SanPhamFragment"
+        android:label="@string/san_pham"
+        tools:layout="@layout/fragment_san_pham" />
+    <fragment
+        android:id="@+id/nav_khachHang"
+        android:name="com.example.warehousemanagement.ui.KhachHang.KhachHangFragment"
+        android:label="@string/khach_hang"
+        tools:layout="@layout/fragment_khach_hang" />
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.example.warehousemanagement.ui.TaiKhoan.TaiKhoanFragment"
+        android:label="@string/menu_acc"
+        tools:layout="@layout/fragment_tai_khoan" />
+
+    <fragment
+        android:id="@+id/nav_hang"
+        android:name="com.example.warehousemanagement.ui.Hang.HangFragment"
+        android:label="@string/hang"
+        tools:layout="@layout/fragment_hang" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.warehousemanagement.ui.TrangChu.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.warehousemanagement.ui.TrangChu.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+</navigation>
