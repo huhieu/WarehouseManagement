@@ -1,11 +1,13 @@
 package com.example.warehousemanagement;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -63,7 +65,30 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void onLoginClick(){
-
+        String user = editTextUser.getText().toString();
+        String pass = editTextPassword.getText().toString();
+        if (user.isEmpty() || pass.isEmpty()) {
+            Toast.makeText(this, "Vui lòng nhập đầy đủ thông tin", Toast.LENGTH_SHORT).show();
+        } else {
+            boolean isExist = dao.getlogin(user, pass) > 0;
+            if (isExist) {
+                Toast.makeText(this, "Đăng nhập thành công", Toast.LENGTH_SHORT).show();
+                SharedPreferences preferences = getSharedPreferences("USER_FILE", MODE_PRIVATE);
+                SharedPreferences.Editor editor = preferences.edit();
+                editor.putString("USER", user);
+                editor.putString("PASS", pass);
+                editor.putBoolean("REMEMBER", checkBoxRemember.isChecked());
+                editor.commit();
+                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putString("USER", user);
+                bundle.putString("PASS", pass);
+                intent.putExtras(bundle);
+                startActivity(intent);
+            } else {
+                Toast.makeText(this, "Sai tài khoản hoặc mật khẩu", Toast.LENGTH_SHORT).show();
+            }
+        }
     }
 
     private void onHuyCLick(){
