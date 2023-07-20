@@ -318,7 +318,7 @@ public class AddSanPhamFragment extends Fragment {
             resetFrom();
             return true;
         } else if (itemId == R.id.menu_save) {
-            if (checkSP()) {
+            if (true) {
                 bitmapNew = ((BitmapDrawable) binding.imgSP.getDrawable()).getBitmap();
                 if (bitmapNew != bitmapOld) {
                     convertImage();
