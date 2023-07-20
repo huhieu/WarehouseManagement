@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/nav_listTk"
-        android:name="com.example.myapplication.ui.TaiKhoan.ListTaiKhoanFragment"
+        android:name="com.example.warehousemanagement.ui.TaiKhoan.ListTaiKhoanFragment"
         android:label="fragment_list_tai_khoan"
         tools:layout="@layout/fragment_list_tai_khoan" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_addTk"
-        android:name="com.example.myapplication.ui.TaiKhoan.AddTaiKhoanFragment"
+        android:name="com.example.warehousemanagement.ui.TaiKhoan.AddTaiKhoanFragment"
         android:label="fragment_add_tai_khoan"
         tools:layout="@layout/fragment_add_tai_khoan" >
         <action
@@ -29,7 +29,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_ChiTietTk"
-        android:name="com.example.myapplication.ui.TaiKhoan.ChiTietTaiKhoanFragment"
+        android:name="com.example.warehousemanagement.ui.TaiKhoan.ChiTietTaiKhoanFragment"
         android:label="fragment_chi_tiet_tk"
         tools:layout="@layout/fragment_chi_tiet_tk" >
         <action
@@ -42,7 +42,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_editTk"
-        android:name="com.example.myapplication.ui.TaiKhoan.EditTaiKhoanFragment"
+        android:name="com.example.warehousemanagement.ui.TaiKhoan.EditTaiKhoanFragment"
         android:label="fragment_edit_tk"
         tools:layout="@layout/fragment_edit_tk" >
         <action
