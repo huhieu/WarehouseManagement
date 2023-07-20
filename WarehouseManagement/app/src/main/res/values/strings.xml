@@ -41,6 +41,7 @@
     <string name="exit">Cancel</string>
     <string name="ok">OK</string>
     <string name="done_class">Chọn hãng</string>
+    <string name="money_show">Thành tiền:</string>
     <string name="sp_name">Tên sản phẩm</string>
     <string name="sp_id">Mã sản phẩm</string>
     <string name="sp_class">Loại sản phẩm</string>
@@ -89,5 +90,11 @@
         <item>A-Z theo Tên</item>
         <item>A-Z theo Mã</item>
         <item>A-Z theo TK</item>
+    </string-array>
+    <string-array name="date">
+        <item>Tất cả</item>
+        <item>Hôm nay</item>
+        <item>7 ngày</item>
+        <item>30 ngày</item>
     </string-array>
 </resources>

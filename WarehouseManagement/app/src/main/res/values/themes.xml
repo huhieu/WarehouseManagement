@@ -20,6 +20,7 @@
     <style name="Theme.Warehousemanagement.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Warehousemanagement.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <string name="don_gia_show">Đơn giá:</string>
 
 
     

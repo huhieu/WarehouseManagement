@@ -7,6 +7,6 @@
     android:textColor="@color/black"
     android:padding="5dp"
     android:textAlignment="center"
-    android:background="@color/bg_search">
+    android:background="@color/bg_seach">
 
 </TextView>
