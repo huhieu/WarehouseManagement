@@ -150,7 +150,7 @@ public class AddHoaDonXuatFragment extends Fragment {
     }
 
     public void getMaNV() {
-        SharedPreferences preferences = appCompatActivity.getSharedPreferences("USER_INFO", Context.MODE_PRIVATE);
+        SharedPreferences preferences = appCompatActivity.getSharedPreferences("USER_FILE", Context.MODE_PRIVATE);
         String taiKhoan = preferences.getString("USER", "");
         maNV = daoNV.gettaiKhoan(taiKhoan).getMaNV();
     }

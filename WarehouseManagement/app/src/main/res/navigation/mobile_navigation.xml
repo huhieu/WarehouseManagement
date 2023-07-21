@@ -5,6 +5,21 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@id/nav_home">
     <fragment
+        android:id="@+id/nav_doanhThu"
+        android:name="com.example.warehousemanagement.ui.ThongKe.DoanhThuFragment"
+        android:label="@string/doanh_thu"
+        tools:layout="@layout/fragment_doanh_thu" />
+    <fragment
+        android:id="@+id/nav_hoaDonXuat"
+        android:name="com.example.warehousemanagement.ui.HoaDonXuat.HoaDonXuatFragment"
+        android:label="@string/menu_hd_xuat"
+        tools:layout="@layout/fragment_hoa_don_xuat" />
+    <fragment
+        android:id="@+id/nav_hoaDonNhap"
+        android:name="com.example.warehousemanagement.ui.HoaDonNhap.HoaDonNhapFragment"
+        android:label="@string/menu_hd_nhap"
+        tools:layout="@layout/fragment_hoa_don_nhap" />
+    <fragment
         android:id="@+id/nav_sanPham"
         android:name="com.example.warehousemanagement.ui.Sanpham.SanPhamFragment"
         android:label="@string/san_pham"

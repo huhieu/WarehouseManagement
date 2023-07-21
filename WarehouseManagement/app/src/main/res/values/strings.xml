@@ -64,8 +64,8 @@
 
     <string name="action_settings">Settings</string>
     <string name="home">Trang chủ</string>
-    <string name="menu_hd_xuat">Nhập hàng hóa</string>
-    <string name="menu_hd_nhap">Bán hàng</string>
+    <string name="menu_hd_xuat">Xuất hàng hóa</string>
+    <string name="menu_hd_nhap">Nhập hàng hàng</string>
     <string name="san_pham">Sản phẩm</string>
     <string name="doanh_thu">Doanh thu</string>
     <string name="khach_hang">Khách hàng</string>
